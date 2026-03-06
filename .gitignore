@@ -1,0 +1,27 @@
+# --- Centurion V3.9 - Victor 3 Sovereign Safety ---
+# Created by John G. Brooks
+
+# Block all compiled artifacts and binaries
+/target/
+debug/
+release/
+
+# Block all source code to maintain Aerospace security
+# (The Architecture Manifest and Metadata remain visible)
+src/
+*.rs
+
+# Block local environment and sensitive keys
+.env
+*.key
+*.pem
+
+# Block IDE-specific junk (VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Block OS-specific files
+.DS_Store
+Thumbs.db
